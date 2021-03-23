@@ -1,0 +1,111 @@
+body {background-color: #ADD8E6;
+     font-size: 20px;
+     font-family: Times, serif;
+}
+
+.b {
+    text-align:center;
+    height:100px;
+    width: 30px;
+    background: #FFF8DC;
+    border: dotted;    
+    -webkit-transition: background 0.1s ease 0.3s;
+    -moz-transition: background 0.1s ease 0.3s;
+    -o-transition: background 0.1s ease 0.3s;
+
+}
+
+a.b:hover,
+a.b:focus {
+    background:#A9A9A9;
+    border: 3px solid;
+}
+
+.c {
+    background: #E6E6FA;
+    -webkit-transition: ease 0.7s background 0.5s;
+    -moz-transition: ease 0.7s background 0.5s;
+    -o-transition: ease 0.7s background 0.5s;
+
+}
+
+a.c:hover,
+a.c:focus{
+  background: #4c57f5;
+  color: #92d4aa;
+}
+
+a.background {
+  background: #ffcd9b;
+  color: white;
+  transition: background 1s ease-in, color 1s ease-out;
+}
+
+a.background:hover,
+a.background:focus{
+    
+  background: #4c57f5;
+  color: #92d4aa;
+}
+.d {
+    background: #F08080;
+    border-style: dotted dashed solid double;
+    padding: 2px 4px;
+    -webkit-transition: background 0.3s;
+    -moz-transition: background 0.3s;
+    -o-transition: background 0.3s;
+}
+
+a.d:hover,
+a.d:focus {
+    -webkit-transition: color 0.2s linear;
+    -moz-transition: color 0.2s linear;
+    -o-transition: color 0.2s linear;
+    border: 5px;
+}
+
+article {
+    height: 500px ;
+    border: white 5px solid;
+    background: #FAF0E6;
+    
+}
+
+.icon {
+  opacity: 0.5;
+}
+.icon:hover img , 
+.icon:focus img {
+
+	-webkit-transform: scale(1.3)  rotate(-10deg);
+	-ms-transform: scale(1.3)  rotate(-10deg);
+	-moz-transform: scale(1.3)  rotate(-10deg);
+	-o-transform: scale(1.3)  rotate(-10deg);
+	transform: scale(1.3) rotate(-10deg);
+   
+	-webkit-filter: drop-shadow(7px 7px 5px rgba(0,0,0,0.5)); 
+	filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.5));   
+	opacity: 1;
+
+}
+.grow img{
+transition: 1s ease;
+}
+
+.grow img:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+}
+.fadein img{
+opacity:0.5;
+transition: 1s ease;
+}
+
+.fadein img:hover{
+opacity:1;
+transition: 1s ease;
+}
