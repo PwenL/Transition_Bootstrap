@@ -1,2 +1,3 @@
 # Transition_Bootstrap
-Webpages on transitions and Bootstrap!
+Three webpages with transitions and Bootstrap!!
+
